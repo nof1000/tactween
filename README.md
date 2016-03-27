@@ -82,7 +82,7 @@ tactween(1000, {
 
 // Circ
 tactween(1000, {
-    timing: function(fraction) { return 1 - Min.sin(Math.acos(fraction)); },
+    timing: function(fraction) { return 1 - Math.sin(Math.acos(fraction)); },
     change: function(v) { anything = v.value; }
 });
 
