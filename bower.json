@@ -1,0 +1,32 @@
+{
+  "name": "tactween",
+  "description": "A simple core-based tweening to create animations",
+  "main": "./dist/tactween.min.js",
+  "homepage": "https://github.com/nof1000/tactween",
+  "license": "MIT",
+  "authors": [
+    "Denis Maslennikov <mrdenniska@gmail.com> (http://nofach.com)"
+  ],
+  "keywords": [
+    "requestAnimationFrame",
+    "fundamental",
+    "animation",
+    "tweening",
+    "tween",
+    "time",
+    "core"
+  ],
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "ignore": [
+    "**/.*",
+    "*.html",
+    "node_modules",
+    "bower_components",
+    "gulpfile.js",
+    "package.json"
+  ]
+}
